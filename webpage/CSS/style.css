@@ -1,0 +1,163 @@
+/* BASE STYLES */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+    margin: 25px 0;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 28px;
+
+}
+
+h4 {
+    font-size: 26px;
+
+}
+
+
+h5 {
+    font-size: 20px;
+}
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+}
+
+/*DEFAULTS*/
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+}
+
+section {
+    overflow: auto;
+}
+
+.wrap {
+    max-width: 100%;
+    padding: 50px;
+
+}
+
+
+/****** HOMEPAGE *********/
+
+/* HEADER */
+
+header {
+    text-align: center;
+    color: #ffffff;
+    padding: 80px 0;
+}
+
+header img {
+    margin: 0 auto;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.header-section {
+    background-image: url(../images/conference-hero.jpg);
+    background-color: lightgrey;
+}
+
+/* ONE POINT SECTION*/
+.benifits {
+    background-color: lightsteelblue;
+}
+
+/* THREE POINTS SECTION */
+
+.three-points-section {
+    min-height: 400px;
+    text-align: left;
+}
+
+.three-points-section img {
+    width: 250px;
+    margin: 27px auto;
+    width: 60%;
+    height: auto;
+    padding: 0 auto;
+    border-radius: 5%;
+}
+
+.three-points-section-image {
+    width: 35%;
+    float: left;
+}
+
+.three-points-section-text {
+    width: 65%;
+    float: left;
+    margin-top: 0;
+}
+
+/* TABLES SECTION */
+.tables-section {
+    background-color: lightsteelblue;
+}
+
+
+/* FOUR POINT SECTION */
+.four-point-section {
+    min-height: 400px;
+    text-align: left;
+}
+
+.four-point-section img {
+    width: 40%;
+    height: auto;
+    padding: 0 auto;
+    margin: 0 auto;
+    border-radius: 5%
+}
+
+.four-point-section-image {
+    width: 40%;
+    float: left;
+}
+
+.four-point-section-text {
+    width: 35%;
+    float: left;
+    margin-top: 0;
+}
+
+/* BEFORE FOOTER SECTION*/
+
+.before-footer-section {
+    background-color: lightsteelblue;
+}
+
+/* FOOTER */
+
+.footer-section {
+    text-align: center;
+    background-color: lightslategray;
+}
+
+/******* TICKETS *******/
+
+.ticket-form {
+    text-align: center;
+}
